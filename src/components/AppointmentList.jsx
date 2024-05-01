@@ -26,13 +26,13 @@ const AppointmentList = ({ appo, setAppo }) => {
           <Row
             key={id}
             className={
-              "appointments justify-content-between align-items-center mx-auto " +
+              "appointments justify-content-between align-items-center mx-auto text-primary " +
               (consulted ? "consulted" : "")
             }
           >
             <Col>
               <h4>{patient}</h4>
-              <h5>{doctor}</h5>
+              <h5 className="text-dark">{doctor}</h5>
             </Col>
             <Col>
               <h5>Date: {new Date(day).toLocaleDateString()}</h5>

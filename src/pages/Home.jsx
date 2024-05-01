@@ -7,7 +7,7 @@ const Home = () => {
   const [appo, setAppo] = useState(JSON.parse(localStorage.getItem("appointments")) ||[]);
   return (
     <main className="text-center mt-2">
-      <h1 className="display-5 text-danger">RAYZ HOSPITAL</h1>
+      <h1 className="display-5 fw-bold text-primary">RAYZ HOSPITAL</h1>
       <Doctors setAppo={setAppo} apps={appo} />
       <AppointmentList appo={appo} setAppo={setAppo} />
     </main>
