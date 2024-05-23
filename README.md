@@ -1,5 +1,7 @@
 <h1>Appointments<h1>
 
+![appoinmtents-gif](./public/img/appointment.gif)
+
 [👉click here to login Appointments](https://appontments.netlify.app/)
 
 <h2>Project Skeleton</h2>
